@@ -1,0 +1,48 @@
+var a=0;
+a=prompt("Enter value of a");
+var b=0;
+b=prompt("Enter value of b");
+
+var choice=prompt("Select Operation:\n1.+\n2.-\n3.x\n4./\n5.%");
+var z=0;
+ 
+switch(choice)
+ { 
+     case '+':
+     z=Number(a)+Number(b);
+      console.log("Sum = "+z);
+      break;
+    case '-':         
+     z=a-b;
+      console.log("Difference = "+z);
+      break;
+      case 'x':
+          z=a*b;
+          console.log("Product = "+z);
+          break;
+        case '/':
+            z=Math.floor(a/b);
+            console.log("Quotient = "+z);
+            break;
+        case '%':
+            z=a%b;
+            console.log("Remainder = "+z);
+            break;
+        default:
+      console.log("Please choose one of the given options only");
+      break;
+      }
+
+
+
+
+
+
+
+
+
+
+      
+  
+
+
